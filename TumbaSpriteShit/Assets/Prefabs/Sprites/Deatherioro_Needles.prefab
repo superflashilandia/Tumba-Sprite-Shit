@@ -568,7 +568,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &5883077581101423981
 Transform:
   m_ObjectHideFlags: 0
@@ -660,7 +660,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2874335898116330522}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -6027,7 +6027,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 3
       scalar: 0.1
-      minScalar: 0.3
+      minScalar: 1
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -6517,7 +6517,7 @@ ParticleSystem:
     gravityModifier:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1.16
+      scalar: 0
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -46129,7 +46129,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4858562423273920959, guid: 59338b49fab57584caad2b6cbdf44c05, type: 3}
       propertyPath: lengthInSec
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4858562423273920959, guid: 59338b49fab57584caad2b6cbdf44c05, type: 3}
       propertyPath: ShapeModule.type
@@ -46333,6 +46333,18 @@ PrefabInstance:
       propertyPath: moveWithTransform
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4858562423273920959, guid: 59338b49fab57584caad2b6cbdf44c05, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858562423273920959, guid: 59338b49fab57584caad2b6cbdf44c05, type: 3}
+      propertyPath: InitialModule.startSpeed.minScalar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858562423273920959, guid: 59338b49fab57584caad2b6cbdf44c05, type: 3}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.scalar
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 9217670716929857618, guid: 59338b49fab57584caad2b6cbdf44c05, type: 3}
       propertyPath: m_Name
       value: bloodHit
@@ -46413,7 +46425,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4858562423273920959, guid: 59338b49fab57584caad2b6cbdf44c05, type: 3}
       propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.scalar
-      value: 10
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 9217670716929857618, guid: 59338b49fab57584caad2b6cbdf44c05, type: 3}
       propertyPath: m_Name
@@ -46653,15 +46665,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4858562423273920959, guid: 59338b49fab57584caad2b6cbdf44c05, type: 3}
       propertyPath: InitialModule.startColor.minColor.b
-      value: 0.8207547
+      value: 0.31132078
       objectReference: {fileID: 0}
     - target: {fileID: 4858562423273920959, guid: 59338b49fab57584caad2b6cbdf44c05, type: 3}
       propertyPath: InitialModule.startColor.minColor.g
-      value: 0.8207547
+      value: 0.31132078
       objectReference: {fileID: 0}
     - target: {fileID: 4858562423273920959, guid: 59338b49fab57584caad2b6cbdf44c05, type: 3}
       propertyPath: InitialModule.startColor.minColor.r
-      value: 0.8207547
+      value: 0.31132078
       objectReference: {fileID: 0}
     - target: {fileID: 4858562423273920959, guid: 59338b49fab57584caad2b6cbdf44c05, type: 3}
       propertyPath: InitialModule.gravityModifier.scalar
@@ -46709,7 +46721,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9217670716929857618, guid: 59338b49fab57584caad2b6cbdf44c05, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59338b49fab57584caad2b6cbdf44c05, type: 3}
@@ -46787,7 +46799,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4858562423273920959, guid: 59338b49fab57584caad2b6cbdf44c05, type: 3}
       propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.scalar
-      value: 10
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 9217670716929857618, guid: 59338b49fab57584caad2b6cbdf44c05, type: 3}
       propertyPath: m_Name
@@ -47079,7 +47091,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9217670716929857618, guid: 59338b49fab57584caad2b6cbdf44c05, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59338b49fab57584caad2b6cbdf44c05, type: 3}

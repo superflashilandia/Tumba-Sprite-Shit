@@ -168,6 +168,7 @@ Transform:
   - {fileID: 1385295728}
   - {fileID: 1272818508}
   - {fileID: 3948191594271606165}
+  - {fileID: 140605362857618450}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -504,6 +505,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3184034933410067147, guid: 32025871f2ea6c54db7389508267ba8d, type: 3}
   m_PrefabInstance: {fileID: 3184034931659587020}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &140605362857618450 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8746212647865674482, guid: 7df602991da986b4793fe0995eaa9228, type: 3}
+  m_PrefabInstance: {fileID: 8688373616589096672}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &327529555255632817
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -730,6 +736,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deatherioro_Needles
       objectReference: {fileID: 0}
+    - target: {fileID: 1327029219531558457, guid: 1ba412c6a7003574aad7c155309f1455, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ba412c6a7003574aad7c155309f1455, type: 3}
 --- !u!1001 &3130134514458404098
@@ -955,6 +965,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 271319576}
     m_Modifications:
+    - target: {fileID: 5413746929296967182, guid: 00a6a83f2a06f7c408033b63d52c4d1a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5413746929470391296, guid: 00a6a83f2a06f7c408033b63d52c4d1a, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -1448,6 +1462,67 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f504fccc808fdfd418a713653e717534, type: 3}
+--- !u!1001 &8688373616589096672
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 271319576}
+    m_Modifications:
+    - target: {fileID: 1703921961036613091, guid: 7df602991da986b4793fe0995eaa9228, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746212647865674482, guid: 7df602991da986b4793fe0995eaa9228, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746212647865674482, guid: 7df602991da986b4793fe0995eaa9228, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746212647865674482, guid: 7df602991da986b4793fe0995eaa9228, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746212647865674482, guid: 7df602991da986b4793fe0995eaa9228, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746212647865674482, guid: 7df602991da986b4793fe0995eaa9228, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746212647865674482, guid: 7df602991da986b4793fe0995eaa9228, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746212647865674482, guid: 7df602991da986b4793fe0995eaa9228, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746212647865674482, guid: 7df602991da986b4793fe0995eaa9228, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746212647865674482, guid: 7df602991da986b4793fe0995eaa9228, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746212647865674482, guid: 7df602991da986b4793fe0995eaa9228, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746212647865674482, guid: 7df602991da986b4793fe0995eaa9228, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746212647865674483, guid: 7df602991da986b4793fe0995eaa9228, type: 3}
+      propertyPath: m_Name
+      value: Deatherioro_DeathMaster
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7df602991da986b4793fe0995eaa9228, type: 3}
 --- !u!1001 &9061013185358367828
 PrefabInstance:
   m_ObjectHideFlags: 0
