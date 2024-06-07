@@ -11,9 +11,7 @@ Library/*
 !Library/com.unity.addressables/
 !Library/com.unity.addressables/*
 !Library/com.unity.addressables/iOS
-Logs/
 RewiredBackup/
-web/
 .vs/
 Temp/
 # ===================================== #
